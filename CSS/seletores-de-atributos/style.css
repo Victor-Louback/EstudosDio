@@ -1,0 +1,15 @@
+[title]{
+    color: blueviolet;
+}
+
+[title="Spotify"]{
+    color: red;
+}
+
+[title~="Streaming"]{
+    background-color: aquamarine;
+}
+
+[href^="http://"]{
+    background-color: chartreuse;
+}
