@@ -1,0 +1,22 @@
+
+.p1{
+    text-indent: 20px;
+}
+
+.p2{
+    letter-spacing: 5px;
+}
+
+.p3{
+    word-spacing: 15px;
+}
+
+div{
+    width: 200px;
+}
+
+.p4{
+    white-space: nowrap;/*Não permite a quebra de linha*/
+    overflow: hidden; /*Esconde tude que estiver fora do espaço definida*/
+    text-overflow: ellipsis;/*Mostra os 3 pontinhos para mostrar ao leitor que tem mais conteudo*/
+}
