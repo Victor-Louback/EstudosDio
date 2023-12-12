@@ -1,0 +1,15 @@
+
+.container{
+    width: 500px;
+    border: 2px solid rgb(215, 252, 3);
+}
+
+.px{
+    background-color: aqua;
+    width: 300px;
+}
+
+.porcentagem{
+    background-color: coral;
+    width: 50%;
+}
