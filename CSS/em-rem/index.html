@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padrão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>em</h1>
+    <p>O em pega a unidade de medida do elemento pai como referencia (tamanho padrao do html 16px)</p>
+    
+    <p style="font-size: 1em;">
+        font-size: 1em = 16px
+    </p>
+    <p style="font-size: 2em;">
+        font-size: 2em = 32px
+    </p>
+    <p style="font-size: 3em;">
+        font-size: 3em = 48px
+    </p>
+
+    <p>nesse caso os textos estao dentro de uma div aonde o font-size e 25px</p>
+    <div style="font-size: 25px;">
+        <p style="font-size: 1em;">
+            font-size: 1em = 25px
+        </p>
+        <p style="font-size: 2em;">
+            font-size: 2em = 50px
+        </p>
+        <p style="font-size: 3em;">
+            font-size: 3em = 75px
+        </p>
+    </div>
+
+    <h1>rem</h1>
+
+    <p>o rem pega como base a medida do font-size do html que e 16px independente do tamanho do elemento pai (so vai ser alterado o valor se o elemento raiz html for alterado)</p>
+
+    <p style="font-size: 1rem;">
+        font-size: 1rem = 16px
+    </p>
+    <p style="font-size: 2rem;">
+        font-size: 2rem = 32px
+    </p>
+    <p style="font-size: 3rem;">
+        font-size: 3rem = 48px
+    </p>
+
+    <p>nesse caso os textos estao dentro de uma div aonde o font-size e 25px</p>
+    <div style="font-size: 25px;">
+        <p style="font-size: 1rem;">
+            font-size: 1rem = 16px
+        </p>
+        <p style="font-size: 2rem;">
+            font-size: 2rem = 32px
+        </p>
+        <p style="font-size: 3rem;">
+            font-size: 3rem = 48px
+        </p>
+    </div>
+
+</body>
+</html>
